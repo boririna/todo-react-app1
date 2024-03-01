@@ -1,0 +1,42 @@
+.todo {
+	margin-bottom: 5px;
+	border-left: 5px solid rgb(30, 122, 127);
+	padding-left: 3px;
+	padding-bottom: 3px;
+	border-bottom: 3px solid rgb(30, 122, 127);
+	border-radius: 0 0 0 5px;
+	font-size: larger;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.todo span {
+	font-weight: 600;
+	color: brown;
+}
+
+.todo button {
+	background-color: brown;
+	color: white;
+	padding: 10px 15px;
+	margin-left: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.todo input {
+	width: 100%;
+	padding: 5px;
+}
+
+.text {
+	max-width: 450px;
+	display: flex;
+}
+
+.text p {
+	padding-left: 5px;
+}
